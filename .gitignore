@@ -1,0 +1,20 @@
+# As ferramentas vivem nos próprios repositórios — aqui elas são só clonadas
+# pelo preparar.py. Versionar uma cópia significaria manter três cópias em
+# sincronia, e a de dentro do hub envelheceria em silêncio.
+Recompra - Leve Saude/
+recompra-leve-saude/
+Extração Fundos.NET/
+Extracao-Fundos-NET/
+
+# Pacote pronto para enviar a outra máquina: pesa centenas de MB e é gerado.
+Compartilhar/
+
+# Caminhos desta máquina, quando a organização de pastas for diferente.
+ferramentas.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Saída de execução em segundo plano, usada em depuração
+hub_out.log
